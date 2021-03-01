@@ -26,3 +26,17 @@ Podemos utilizar o site ([coggle.it](https://)) para fazer os mind maps.
 
 Ex.
 ![](https://i.imgur.com/Y7bZHTl.png)
+
+# Como escrever Hipóteses?
+
+Hipóteses são **APOSTAS**
+
+Por ex, <br>
+asedsadasd
+-Lojas de **MAIOR** *porte* deveriam *vender* **MAIS**.
+<br>
+-Lojas com MAIOR *sortimento* deveriam *vender* **MAIS**;
+<br>
+-Lojas com **MAIS** *competidores por perto deveriam vender* **MENOS**;
+
+*Vale lembrar que isso não é uma causa e efeito, mas sim uma correlação.
