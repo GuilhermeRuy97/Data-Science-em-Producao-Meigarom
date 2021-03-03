@@ -1,3 +1,7 @@
+# Feature Engineering
+
+<br>
+
 # Mapa de Hipóteses
 
 Por que fazer feature engineering?
@@ -40,3 +44,15 @@ asedsadasd
 -Lojas com **MAIS** *competidores por perto deveriam vender* **MENOS**;
 
 *Vale lembrar que isso não é uma causa e efeito, mas sim uma correlação.
+
+# RESTRIÇÕES DE NEGÓCIO
+
+-É necessário considerar as restrições de negócio no começo do projeto
+
+**Filtragem de variáveis x Seleção de Variáveis**
+
+Filtragem de variáveis:
+-Restrições de acordo com o négocio.
+
+Seleção de variáveis:
+-Variáveis mais relevantes para o modelo.
