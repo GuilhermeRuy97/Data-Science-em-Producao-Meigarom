@@ -42,10 +42,36 @@ Correlação fraca<br>
 O que usar quandos as variáveis são de cada tipo?<br>
 ![](https://i.imgur.com/gAqiKlO.png)<br><br>
 Vantagens e desvantagens da seleção univariada:
-![](https://i.imgur.com/bmKZG5Q.png)
+![](https://i.imgur.com/WLpeud3.png)
+
 
 
 
 **2. Seleção por Importância (Embedded Methods)**<br>
 
+Também conhecida como método embutido.
+Em vez de utilizar a correlação como critério, utiliza-se a importância.
+Usada em:
+1. Random Forest <br>
+Utiliza a Gini impurity:
+Seleciona as variáveis e divide o conjunto de dados em outros dois conjuntos de dados, sendo estes dois novos conjuntos homogêneos entre si.
+![](https://i.imgur.com/eG8yGpx.png)<br><br>
+![](https://i.imgur.com/etL18gn.png)<br>
+
+2. Lasso Regression<br><br>
+![](https://i.imgur.com/E0rwVoG.png)
+3. Ridge Regression
+
+
 **3. Seleção por SubSet (Wrapper Methods)**<br>
+
+ ![](https://i.imgur.com/Q7xPEHU.png)
+Caso seja adicionado uma terceira variável e a performance não aumente, remove-se a variável.
+
+O ALGORITMO BORUTA:
+Faz-se uma cópia dos dados com as linhas embaralhadas para remover a correlação entre as variáveis.
+Depois é encontrada a importância das features originais e das features embaralhadas.
+Então, o algoritmo boruta compara a importância das variáveis originais com as da variável shadow (embaralhadas), se a originál for mais importante que a shadow, coloca-se 1 na tabela, caso seja menor, coloca-se 0. O nome dessa tabela é Success Counts.
+
+![](https://i.imgur.com/PAYkhNe.png)
+
