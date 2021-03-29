@@ -69,8 +69,25 @@ Após conseguir ganhar a recompensa, o algoritmo pode tentar buscar por recompen
 **1. Modelo de Média (average model)**
 Serve como uma boa base comparativa pra performance dos outros modelos.
 Por exemplo, um modelo com uma performance pior que a média, foi um modelo ruim.
+
 **2. Linear Regression**
+
 **3. Linear Regression Regularized (lasso)**
+
 **4. Random Forest Regressor**
+
 **5. XGBoost Regressor**
 Usa a bagging e boosting
+
+# Cross Validation
+
+Divide o modelo em várias partes para teste e treino.
+> "Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample. The procedure has a single parameter called k that refers to the number of groups that a given data sample is to be split into. As such, the procedure is often called k-fold cross-validation"
+
+![](https://i.imgur.com/g95jI8E.png)
+
+No final, faz-se a média desses erros (por parte separada) +- o desvio padrão desses erros.
+
+Performance Real do Modelo = MEAN(Erro1, Erro2, ..., ErroN) +/- (Erro1, Erro2, ..., ErroN)
+
+![](https://i.imgur.com/wGEtlvx.png)
